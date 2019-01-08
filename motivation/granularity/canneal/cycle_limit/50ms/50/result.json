@@ -1,0 +1,21 @@
+{
+    "runtime": {
+        "canneal": 5.377267122268677
+    },
+    "power": [
+        {
+            "package_name": "package-0",
+            "power": 176293494,
+            "domains": {
+                "dram": 13347077
+            }
+        },
+        {
+            "package_name": "package-1",
+            "power": 247724463,
+            "domains": {
+                "dram": 65732866923
+            }
+        }
+    ]
+}
