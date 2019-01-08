@@ -1,0 +1,17 @@
+{
+	"workloads": [
+		{
+			"binding_cores": "16",
+			"name": "canneal",
+			"cpu_freq": 1.9
+		}
+	],
+	"launcher": {
+		"hyper-threading": false,
+		"stops_with_the_first": false,
+		"post_scripts": [
+			"avg_csv.py",
+			"validate_perf.py"
+		]
+	}
+}
