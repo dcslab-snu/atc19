@@ -1,0 +1,36 @@
+{
+	"workloads": [
+		{
+			"binding_cores": "0-7",
+			"cpu_freq": 2.1,
+			"name": "CG",
+			"type": "fg"
+		},
+		{
+			"binding_cores": "8-15",
+			"cpu_freq": 2.1,
+			"name": "SP",
+			"type": "bg"
+		},
+		{
+			"binding_cores": "16-23",
+			"cpu_freq": 2.1,
+			"name": "bfs",
+			"type": "fg"
+		},
+		{
+			"binding_cores": "24-31",
+			"cpu_freq": 2.1,
+			"name": "freqmine",
+			"type": "bg"
+		}
+	],
+	"launcher": {
+		"hyper-threading": false,
+		"stops_with_the_first": false,
+		"post_scripts": [
+			"avg_csv.py",
+			"validate_perf.py"
+		]
+	}
+}

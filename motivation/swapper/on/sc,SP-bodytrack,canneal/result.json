@@ -1,0 +1,24 @@
+{
+    "runtime": {
+        "bodytrack": 28.410414934158325,
+        "canneal": 64.25556516647339,
+        "streamcluster": 129.93658256530762,
+        "SP": 234.0641896724701
+    },
+    "power": [
+        {
+            "package_name": "package-0",
+            "power": 15742045028,
+            "domains": {
+                "dram": 67673575365
+            }
+        },
+        {
+            "package_name": "package-1",
+            "power": 9867805671,
+            "domains": {
+                "dram": 66518194625
+            }
+        }
+    ]
+}

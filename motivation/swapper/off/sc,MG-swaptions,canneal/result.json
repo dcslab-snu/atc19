@@ -1,0 +1,24 @@
+{
+    "runtime": {
+        "swaptions": 61.55332803726196,
+        "canneal": 66.5567991733551,
+        "streamcluster": 118.24691843986511,
+        "MG": 125.84654307365417
+    },
+    "power": [
+        {
+            "package_name": "package-0",
+            "power": 7093631865,
+            "domains": {
+                "dram": 66612405951
+            }
+        },
+        {
+            "package_name": "package-1",
+            "power": 6877903841,
+            "domains": {
+                "dram": 66223601066
+            }
+        }
+    ]
+}

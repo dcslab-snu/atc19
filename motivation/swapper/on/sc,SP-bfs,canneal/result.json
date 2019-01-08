@@ -1,0 +1,24 @@
+{
+    "runtime": {
+        "bfs": 39.182857275009155,
+        "canneal": 73.62246084213257,
+        "streamcluster": 118.21114873886108,
+        "SP": 238.27590799331665
+    },
+    "power": [
+        {
+            "package_name": "package-0",
+            "power": 15372403395,
+            "domains": {
+                "dram": 67675872201
+            }
+        },
+        {
+            "package_name": "package-1",
+            "power": 9644910306,
+            "domains": {
+                "dram": 66514553012
+            }
+        }
+    ]
+}
