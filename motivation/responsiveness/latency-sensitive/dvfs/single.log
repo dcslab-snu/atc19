@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 147.46.240.226 (be patient)
+
+
+Server Software:        Apache-Coyote/1.1
+Server Hostname:        147.46.240.226
+Server Port:            8080
+
+Document Path:          /examples/servlets/nonblocking/numberwriter
+Document Length:        210000 bytes
+
+Concurrency Level:      1
+Time taken for tests:   12.871 seconds
+Complete requests:      200
+Failed requests:        0
+Total transferred:      42028400 bytes
+HTML transferred:       42000000 bytes
+Requests per second:    15.54 [#/sec] (mean)
+Time per request:       64.357 [ms] (mean)
+Time per request:       64.357 [ms] (mean, across all concurrent requests)
+Transfer rate:          3188.73 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.1      0       0
+Processing:    16   64 166.6     41    1548
+Waiting:        1   17 104.8      1     971
+Total:         16   64 166.6     41    1548
+
+Percentage of the requests served within a certain time (ms)
+  50%     41
+  66%     54
+  75%     60
+  80%     64
+  90%     72
+  95%     85
+  98%    914
+  99%   1128
+ 100%   1548 (longest request)
