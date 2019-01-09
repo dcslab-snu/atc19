@@ -1,0 +1,24 @@
+{
+    "runtime": {
+        "bfs": 39.03937125205994,
+        "freqmine": 102.0108368396759,
+        "streamcluster": 113.41827964782715,
+        "MG": 393.1084825992584
+    },
+    "power": [
+        {
+            "package_name": "package-0",
+            "power": 27049463163,
+            "domains": {
+                "dram": 69338990203
+            }
+        },
+        {
+            "package_name": "package-1",
+            "power": 16652482332,
+            "domains": {
+                "dram": 66956137205
+            }
+        }
+    ]
+}

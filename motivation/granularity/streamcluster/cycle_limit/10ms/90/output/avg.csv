@@ -1,0 +1,13 @@
+category,streamcluster
+runtime,1.7779912948608398
+l2miss,49895393.63636363
+l3miss,138123.63636363635
+instructions,3348015429.0909095
+cycles,1880381431.818182
+stall_cycles,231780489.0909091
+intra_coh,0.0
+inter_coh,2.727272727272727
+wall_cycles,2259517049.090909
+llc_size,0.0
+local_mem,0.0
+remote_mem,0.0

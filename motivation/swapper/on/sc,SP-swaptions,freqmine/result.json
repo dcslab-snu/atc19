@@ -1,0 +1,24 @@
+{
+    "runtime": {
+        "swaptions": 56.80376315116882,
+        "freqmine": 79.65325832366943,
+        "streamcluster": 116.22096705436707,
+        "SP": 232.78810119628906
+    },
+    "power": [
+        {
+            "package_name": "package-0",
+            "power": 15247751432,
+            "domains": {
+                "dram": 1930450403
+            }
+        },
+        {
+            "package_name": "package-1",
+            "power": 11876593803,
+            "domains": {
+                "dram": 66537104186
+            }
+        }
+    ]
+}

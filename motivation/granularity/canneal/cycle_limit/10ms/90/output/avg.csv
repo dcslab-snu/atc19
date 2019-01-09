@@ -1,0 +1,13 @@
+category,canneal
+runtime,3.114448308944702
+l2miss,20133201.200000003
+l3miss,4733940.8
+instructions,1260995214.0
+cycles,1859538138.4
+stall_cycles,1096842585.2
+intra_coh,0.0
+inter_coh,0.4
+wall_cycles,2171414530.4
+llc_size,36091985.92
+local_mem,263638220.79999998
+remote_mem,2228224.0

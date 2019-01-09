@@ -42,10 +42,10 @@ cgexec --sticky -g cpuset:test -g cpu:test \
  perf stat -e instructions,cycles -x , -I 1 \
  "${PARSEC_HOME}/parsecmgmt" -a run -p ${workload} -i ${INPUT_SIZE} -n ${NUM_CORE} 2> "${workload}_${INPUT_SIZE}-$(($CFS_PERIOD / 1000))ms.log" &
 
-sleep 0.8
+sleep 0.6
 
 for percentile in `seq 10 10 100`; do
-	sleep 0.1
+	sleep 0.2
 	echo "Cycle Limit: ${percentile}%"
 	cycle_limit ${percentile}
 done

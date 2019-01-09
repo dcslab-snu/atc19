@@ -1,0 +1,24 @@
+{
+    "runtime": {
+        "MG": 18.560485124588013,
+        "bodytrack": 29.477940320968628,
+        "freqmine": 86.70849180221558,
+        "streamcluster": 125.04161834716797
+    },
+    "power": [
+        {
+            "package_name": "package-0",
+            "power": 7172823983,
+            "domains": {
+                "dram": 66539641737
+            }
+        },
+        {
+            "package_name": "package-1",
+            "power": 8783831212,
+            "domains": {
+                "dram": 66242590325
+            }
+        }
+    ]
+}
